@@ -9,7 +9,7 @@ const users = [
   },
 ];
 
-const customers = [
+export const customers = [
   {
     id: '3958dc9e-712f-4377-85e9-fec4b6a6442a',
     name: 'Delba de Oliveira',
@@ -72,7 +72,7 @@ const customers = [
   },
 ];
 
-const invoices = [
+export const invoices = [
   {
     customer_id: customers[0].id,
     amount: 15795,

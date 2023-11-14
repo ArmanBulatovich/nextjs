@@ -1,0 +1,11 @@
+version: '3'
+services:
+  postgres:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: arman
+      POSTGRES_PASSWORD: arman
+      POSTGRES_DB: odyssey
+    ports:
+      - "5432:5432"
